@@ -9,8 +9,13 @@ app.use(express.urlencoded({extended:false}))
 
 app.use((req, res, next) => {
     console.log("hello from middleware 1")
-    // return res.end("hey")
+    // return res.end("hello")
     next()
+})
+
+app.use((req,res,next) => {
+    console.log("Hello from middleware 2")
+    return res.end("hey")
 })
 
 app.get("/users", (req,res) => {

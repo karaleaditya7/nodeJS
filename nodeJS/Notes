@@ -11,6 +11,8 @@ odd version - for testing
 
 npm init
 
+npm i nodemon
+"start": " nodemon index.js"
 
 =============
 How nodeJS works
@@ -58,3 +60,15 @@ Versioning
 ~ sqiggly line ==> it means you cant change both major and bug fix version, u can only chnage minor version
 
 sudo lsof -i -p -n | grep LISTEN
+
+
+=======================
+
+sudo lsof -i | grep <port>
+kill -9 <port id>
+
+or
+
+
+sudo kill -9 `sudo lsof -t -i:4200
+
