@@ -57,3 +57,4 @@ Versioning
 
 ~ sqiggly line ==> it means you cant chnage both major and bug fix version, u can only chnage minor version
 
+sudo lsof -i -p -n | grep LISTEN
