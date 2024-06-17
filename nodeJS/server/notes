@@ -1,0 +1,5 @@
+server and client should not be dependant 
+
+ssr == server side rendering ==> fast
+
+csr == client side rendering ==> slow
