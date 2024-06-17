@@ -3,10 +3,10 @@ const fs = require("fs")
 // console.log("1")
 
 // // Blocking
-// const result = fs.readFileSync("contacts.txt", "utf-8")
-// console.log(result)
+const result = fs.readFileSync("contacts.txt", "utf-8")
+console.log(result)
 
-// console.log("2")
+console.log("2")
 
 // here execution took place from top to bottom ,
 // o/p
@@ -16,15 +16,15 @@ const fs = require("fs")
 
 // Now we are going to perform non blocking operatios
 
-console.log("1")
+// console.log("1")
 
-//Non Blocking
-const result = fs.readFile("contacts.txt", "utf-8", () => {
-    console.log(result)
+// //Non Blocking
+// const result = fs.readFile("contacts.txt", "utf-8", () => {
+//     console.log(result)
 
-})
+// })
 
-console.log("2")
+// console.log("2")
 
 // o/p is 
 // 1

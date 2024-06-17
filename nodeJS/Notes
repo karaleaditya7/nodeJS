@@ -1,7 +1,7 @@
 nodejs.org
 
 node js is run time env for javascript
-V* engine ko nikala and c++ me dala
+V8 engine ko nikala and c++ me dala
 
 even version - LTS
 odd version - for testing
@@ -21,7 +21,7 @@ Request -->event queue  --> event loop --> blocking operations or Non blocking o
 
 Blocking operation  ==> process --> response
 
-Non vlocking operation ==> thread pool==> return result
+Non blocking operation ==> thread pool==> return result
 
 it is good practice to always have non blocking operation
 
@@ -34,7 +34,7 @@ URL ==> uniform resource locator
 
 whenecever we insert something in  browser, e.g. abc.com, then evrytime browser makes GET req
 
-POST ==> e.g whenevr we need to fill the form , we insert some info , then that info goes to db, where post methods workd
+POST ==> e.g whenevr we need to fill the form , we insert some info , then that info goes to db, where post methods works
 
 
 GET 
@@ -53,7 +53,7 @@ Versioning
 18 is bug fix release 
 2 is minor release
 
-^ carrot symbol ==> compatible with major release i.e u cant chnage 4 , but u can chnage bug fix and minoe version
+^ carrot symbol ==> compatible with major release i.e u cant chnage 4 , but u can chnage bug fix and minor version
 
-~ sqiggly line ==> it means you cant chnage both major and bug fix version, u can only chnage minor version
+~ sqiggly line ==> it means you cant change both major and bug fix version, u can only chnage minor version
 
